@@ -1,6 +1,6 @@
 javascript:(function(){
   if (!document.getElementById('bookmarklet-blackout')) {
-    var div       = document.createElement('div');
+    const div     = document.createElement('div');
     div.id        = 'bookmarklet-blackout';
     div.className = 'blackout';
     Object.assign(div.style, {
