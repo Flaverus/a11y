@@ -1,3 +1,3 @@
 javascript:(function(){
-  document.body.style.filter='grayscale(100%)';
+  document.documentElement.style.filter='grayscale(100%)';
 })();

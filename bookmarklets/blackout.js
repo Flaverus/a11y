@@ -13,6 +13,6 @@ javascript:(function(){
       backgroundColor: 'black',
       pointerEvents: 'none'
     });
-    document.body.appendChild(div);
+    document.documentElement.appendChild(div);
   }
 })();

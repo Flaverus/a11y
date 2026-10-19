@@ -14,6 +14,6 @@ javascript:(function(){
       WebkitBackdropFilter: 'blur(3px)',
       pointerEvents: 'none'
     });
-    document.body.appendChild(div);
+    document.documentElement.appendChild(div);
   }
 })();

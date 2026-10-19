@@ -6,7 +6,7 @@ javascript:(function(){
     svg.setAttribute('version','1.1');
     svg.style.cssText = 'position: absolute !important; width: 0 !important; height: 0 !important; overflow: hidden !important; pointer-events: none !important; border: none !important; padding: 0 !important; margin: 0 !important;';
     svg.innerHTML = '<defs><filter id="tritanopia"><feColorMatrix type="matrix" values="1.256 -0.077 -0.179 0 0 -0.078 0.931 0.148 0 0 0.005 0.691 0.304 0 0 0 0 0 1 0"/></filter></defs>';
-    document.body.appendChild(svg);
+    document.documentElement.appendChild(svg);
   }
-  document.body.style.filter='url(#tritanopia)';
+  document.documentElement.style.filter='url(#tritanopia)';
 })();
