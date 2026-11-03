@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Dieses Formular demonstriert unzugängliche Formularpraktiken ohne Semantik, Validierungstexte oder Tastaturbedienung." />
+  <title>Gratis Süssigkeiten</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Gratis Süssigkeiten Aktion</h1>
+</header>
+
+<main id="main-content">
+  <div class="form-container">
+    <h2>Registrierung für das Bonbon-Paket</h2>
+    <p class="subtitle">Fülle alle Angaben aus, um deine Gratisprobe zu erhalten.</p>
+
+    <div id="candy-form" class="bad-form">
+      <div class="field-group">
+        <span class="field-title">Dein Name</span>
+        <input
+          type="text"
+          id="fullname"
+          placeholder="z.B. Max Muster"
+          autocomplete="off">
+      </div>
+
+      <div class="field-group">
+        <span class="field-title">E-Mail-Adresse</span>
+        <input
+          type="text"
+          id="email"
+          placeholder="name@beispiel.ch"
+          autocomplete="off">
+      </div>
+
+      <div class="field-group">
+        <span class="field-title">Postleitzahl</span>
+        <input
+          type="text"
+          id="zipcode"
+          placeholder="z.B. 4450"
+          autocomplete="off">
+      </div>
+
+      <div class="field-group">
+        <span class="field-title">Gewünschte Menge (in Gramm)</span>
+        <input
+          type="text"
+          id="amount"
+          placeholder="100, 250 oder 500"
+          autocomplete="off">
+      </div>
+
+      <div class="submit-btn" id="submit-trigger">
+        Jetzt gratis bestellen
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

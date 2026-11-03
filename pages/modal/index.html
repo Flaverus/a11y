@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="This page holds a bad accessibility example for a modal." />
+  <title>My first Modal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Mein erstes Modal</h1>
+</header>
+
+<main id="main-content">
+  <button type="button" id="open-modal-btn" class="btn btn-primary">
+    Entdecke einen Früchte-Fakt
+  </button>
+
+  <div id="modal-overlay" class="overlay" hidden>
+    <div class="modal-card">
+      <button type="button" id="close-modal-icon-btn" class="btn-icon">✕</button>
+
+      <div class="modal-title">Wahrheiten über Bananen</div>
+
+      <img
+        src="resources/banana.png"
+        class="modal-img">
+
+      <p class="modal-text">
+        Botanisch gesehen werden Bananen als Beeren klassifiziert, Erdbeeren hingegen nicht. Zudem teilen Bananen etwa 60 % ihrer DNA mit dem Menschen.
+      </p>
+
+      <button type="button" id="close-modal-action-btn" class="btn btn-flat">
+        Alles klar!
+      </button>
+    </div>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
